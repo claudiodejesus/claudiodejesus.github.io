@@ -1,0 +1,43 @@
+/* Essas são as cores do layout CLARO */
+
+:root{
+    --fundo-principal: #f5f5f5;
+    --texto: #222222;
+    --texto-inverso: #ffffff;
+    --destaque: #0077ff;
+    --destaque-inverso: #66bbff;
+    --fundo-card: #ffffff;
+}
+
+
+
+
+/* Abaixo as cores do layout ESCURO.
+Elas precisaram ser segmentadas por TAGS.
+Daria para criar um padrão único, mas daria mais trabalho ainda. */
+
+body.escuro{
+    --fundo-principal: #000000;
+    --texto: #39FF14;
+    --texto-inverso: #222222;
+    --destaque: #39FF14;
+    --destaque-inverso: #006400;
+    --fundo-card: #131313;
+}
+
+header.escuro{
+    --destaque: #006400;
+    --texto: #39FF14;
+}
+
+#menu.escuro{
+    --destaque: #006400;
+    --destaque-inverso: #39FF14;
+    --texto-inverso: #00FF00;
+}
+
+footer.escuro{
+  --destaque: #006400;
+  --destaque-inverso: #39FF14;
+  --texto-inverso: #f5f5f5;
+}
